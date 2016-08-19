@@ -27,7 +27,7 @@ function initWidget (refundAddress) {
   /* global BitRefillWidget */
 
   BitRefillWidget('#widget', {
-    key: '2APYLLO1H3TRQAXXPQJMP6RE6',
+    key: Airbitz.config.get('API_KEY'),
     refundAddress: refundAddress,
     showBTCAddress: false,
     sendBitrefillEmails: true,
